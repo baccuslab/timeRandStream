@@ -4,4 +4,4 @@
 Code for comparing the runtime of RandStream generators.
 
 ### Results
-![bar chart comparing randstream algorithms](rmbp.png)
+![bar chart comparing randstream algorithms](figures/rmbp.png)

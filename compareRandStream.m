@@ -25,8 +25,8 @@ end
 figure(1); clf; hold on;
 scaleFactor = 1e3;
 bar(mean(runTimes)*scaleFactor, 0.8);
-errorb(mean(runTimes)*scaleFactor, std(runTimes)*scaleFactor, 'top');
+%errorb(mean(runTimes)*scaleFactor, std(runTimes)*scaleFactor, 'top');
 set(gca, 'XTick', 1:length(algorithms), 'XTickLabel', algorithms)
-cmap = cbrewer('qual', 'Set1', length(algorithms)); colormap(cmap);
+%cmap = cbrewer('qual', 'Set1', length(algorithms)); colormap(cmap);
 xlabel('Algorithm'); ylabel('Runtime (ms)');
-makepretty; grid on;
+%makepretty; grid on;
